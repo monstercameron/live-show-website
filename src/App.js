@@ -1,6 +1,7 @@
 import "./App.css";
 
 import Test from "./components/Person";
+import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
   return (
