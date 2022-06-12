@@ -1,0 +1,30 @@
+.main {
+  padding: 1em;
+  max-width: 50vmax;
+}
+
+.main > div {
+  background-color: white;
+  margin-top: 1em;
+}
+
+.main > div:nth-child(1) {
+/* display: ; */
+}
+
+.main > div:nth-child(3) > div,
+.main > div:nth-child(4) > div,
+.main > div:nth-child(5) > div {
+  padding-top: 0.5em;
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+  background: rgb(16, 0, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(16, 0, 255, 1) 0%,
+    rgba(255, 248, 0, 1) 40%,
+    rgba(255, 218, 0, 1) 61%,
+    rgba(255, 0, 0, 1) 100%
+  );
+}

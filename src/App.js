@@ -1,15 +1,16 @@
 import "./App.css";
+import "bootstrap/dist/css/bootstrap.css";
 
-import Test from "./components/Person";
-import 'bootstrap/dist/css/bootstrap.css';
+// import Person from "./components/Person";
+// import Vote from "./components/Vote";
+import Header from "./components/Header";
 
 function App() {
   return (
     <div className="App">
-      <div>header</div>
-      <div>body</div>
-      <div>footer</div>
-      <Test />
+      {/* <Vote />
+      <Person /> */}
+      <Header />
     </div>
   );
 }

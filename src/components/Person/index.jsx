@@ -18,35 +18,24 @@ export default function index({
     switch (rating) {
       case 1:
         return "you are a sin to look at";
-        break;
       case 2:
         return "ew";
-        break;
       case 3:
         return "no one is buying her drinks";
-        break;
       case 4:
         return "she below average";
-        break;
       case 5:
         return "you are average at best";
-        break;
       case 6:
         return "she above average";
-        break;
       case 7:
         return "she cute though";
-        break;
       case 8:
         return "she fine af";
-        break;
       case 9:
         return "she hot af";
-        break;
       case 10:
         return "For sure I'm simping";
-        break;
-
       default:
         break;
     }

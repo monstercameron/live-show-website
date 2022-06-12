@@ -2,6 +2,7 @@
   padding: 1em;
   background-color: white;
   text-align: left;
+  max-width: 50vmax;
 }
 
 .main > div {
